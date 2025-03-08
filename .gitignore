@@ -1,0 +1,24 @@
+# Exclude compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Exclude build artifacts
+build/
+dist/
+*.spec
+
+# Exclude code signing certificate (Sensitive File)
+SuperFire.pfx
+
+# Exclude log files
+*.log
+
+# Exclude virtual environments (if used)
+venv/
+.env/
+
+# Exclude system-specific files
+.DS_Store
+Thumbs.db
